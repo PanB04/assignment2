@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 518.5 305">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c2baa8;
+        stroke: #c2baa8;
+        stroke-width: 25px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #b0a690;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        fill: #b0a690;
+      }
+
+      .cls-4 {
+        fill: #335c64;
+      }
+
+      .cls-5 {
+        fill: #0a3542;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g id="Layer_2-2" data-name="Layer 2-2">
+        <path class="cls-1" d="M115.59,12.5h368.66c12.01,0,21.75,9.86,21.75,22.03v163.95c0,51.92-41.54,94.02-92.79,94.02H105.29c-51.25,0-92.79-42.09-92.79-94.02V34.53c0-12.17,9.74-22.03,21.75-22.03h81.35"/>
+      </g>
+      <g id="uuid-7a915ba4-d937-4000-becf-ff691d16f0a6" data-name="Layer 1-2">
+        <rect class="cls-3" x="109.25" y="22.5" width="300" height="260"/>
+        <polyline class="cls-4" points="259.25 273.83 119.25 273.83 119.25 31.17 259.25 31.17"/>
+        <polyline class="cls-5" points="259.25 31.17 399.25 31.17 399.25 273.83 259.25 273.83"/>
+      </g>
+      <g id="Layer_3" data-name="Layer 3">
+        <circle class="cls-3" cx="483.79" cy="13.62" r="9.17"/>
+        <circle class="cls-3" cx="502.12" cy="31.95" r="9.17"/>
+        <circle class="cls-3" cx="483.79" cy="48.71" r="9.17"/>
+        <circle class="cls-3" cx="465.46" cy="31.95" r="9.17"/>
+        <g>
+          <rect class="cls-3" x="26.46" y="4.17" width="16.5" height="55" rx="8.07" ry="8.07"/>
+          <rect class="cls-3" x="7.2" y="23.42" width="55" height="16.5" rx="8.07" ry="8.07"/>
+        </g>
+        <path class="cls-3" d="M58.33,47.12c4.95-4.77,11.67-7.7,19.09-7.7,15.19,0,27.5,12.31,27.5,27.5s-12.31,27.5-27.5,27.5-27.5-12.31-27.5-27.5c0-7.77,3.23-14.8,8.41-19.8"/>
+        <path class="cls-3" d="M422.85,47.12c4.95-4.77,11.67-7.7,19.09-7.7,15.19,0,27.5,12.31,27.5,27.5s-12.31,27.5-27.5,27.5-27.5-12.31-27.5-27.5c0-7.77,3.23-14.8,8.41-19.8"/>
+        <rect class="cls-2" x="22.21" y="112.5" width="80" height="80" rx="17.13" ry="17.13"/>
+        <rect class="cls-2" x="416.29" y="109.37" width="80" height="80" rx="17.13" ry="17.13"/>
+      </g>
+    </g>
+  </g>
+</svg>

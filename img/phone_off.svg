@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.96 503.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 25px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #c2baa8;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #335c64;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 5px;
+      }
+
+      .cls-4 {
+        fill: #b0a690;
+      }
+
+      .cls-5 {
+        fill: #c2baa8;
+      }
+
+      .cls-3 {
+        fill: #0a3542;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Layer_3" data-name="Layer 3">
+      <g>
+        <path class="cls-3" d="M152,12.5h102.91c19.37,0,35.07,15.7,35.07,35.07v408.14c0,19.37-15.7,35.07-35.07,35.07h-102.91"/>
+        <path class="cls-2" d="M152,490.78H49.09c-19.37,0-35.07-15.7-35.07-35.07V47.57c0-19.37,15.7-35.07,35.07-35.07h102.91"/>
+        <rect class="cls-1" x="12.5" y="12.5" width="275.96" height="478.28" rx="35.07" ry="35.07"/>
+        <path class="cls-5" d="M196.93,52.5h-89.85c-11.08,0-20.07-8.99-20.07-20.07V12.5h130v19.93c0,11.08-8.99,20.07-20.07,20.07h-.01Z"/>
+        <circle class="cls-4" cx="107.94" cy="32.5" r="10"/>
+        <path class="cls-4" d="M131.36,25.4h67.61c3.92,0,7.1,3.18,7.1,7.1h0c0,3.92-3.18,7.1-7.1,7.1h-67.61c-3.92,0-7.1-3.18-7.1-7.1h0c0-3.92,3.18-7.1,7.1-7.1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

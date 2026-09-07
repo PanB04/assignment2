@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"></script>
+    <style>
+        body {
+            background: radial-gradient(circle at 50% 40%, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0; 
+            transition:background 1s ease;};
+        .gridwrapper {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+ 
+            .row {
+                margin-top: 40px;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .left-column {
+                float: left;
+                width: 30%;
+                margin-left: auto;
+            }
+
+            .center-column {
+
+                width: 30%;
+                margin: auto;
+            }
+
+            .right-column {
+                float: right;
+                width: 30%;
+                margin: auto;
+            }
+
+            .image-container {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border: clamp(1px, 0.4vw, 3px) solid white;
+                border-radius: clamp( 2vw, 20px, 80px);
+                padding: clamp( 2vw, 6px, 300px);
+                transition: transform 0.2s ease;
+
+            }
+
+            .image-container img {
+                width:clamp(18vw, 80px,  300px);
+                height:clamp(18vw, 80px,  300px);
+                display: block;
+            }
+
+            .image-container:hover {
+                border-color: gold;
+                transform: scale(1.15);
+            }
+
+            body:has(#img2:hover) {
+
+                background: linear-gradient(0deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img3:hover) {
+
+                background: linear-gradient(40deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img6:hover) {
+
+                background: linear-gradient(80deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img9:hover) {
+
+                background: linear-gradient(120deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img8:hover) {
+
+                background: linear-gradient(160deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img7:hover) {
+
+                background: linear-gradient(200deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img4:hover) {
+
+                background: linear-gradient(240deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+
+
+
+            body:has(#img5:hover) {
+
+                background: radial-gradient(circle at 50% 40%, #6b5b45 0%, #2f2f5c 40%, #1a1a3d 100%);
+
+            }
+
+
+
+            body:has(#img1:hover) {
+
+                background: linear-gradient(320deg, #1a1a3d 0%, #2f2f5c 40%, #6b5b45 100%);
+
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="left-column">
+            <div class="image-container"><img id="img1" src="img/arcade_off.svg" 
+                    onclick="this.src='img/arcade.svg'" onmouseleave="this.src='img/arcade_off.svg'" /></div>
+        </div>
+        <div class="right-column">
+            <div class="image-container"><img id="img2" src="img/cine_off.svg" 
+                    onclick="this.src='img/cine.svg'" onmouseleave="this.src='img/cine_off.svg'" /></div>
+        </div>
+        <div class="center-column">
+            <div class="image-container"><img id="img3" src="img/console_off.svg" 
+                    onclick="this.src='img/console.svg'" onmouseleave="this.src='img/console_off.svg'" /></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="left-column">
+            <div class="image-container"><img id="img4" src="img/deck_off.svg" 
+                    onclick="this.src='img/deck.svg'" onmouseleave="this.src='img/deck_off.svg'" /></div>
+        </div>
+        <div class="right-column">
+            <div class="image-container"><img id="img5" src="img/pc_off.svg" 
+                    onclick="this.src='img/pc.svg'" onmouseleave="this.src='img/pc_off.svg'" /></div>
+        </div>
+        <div class="center-column">
+            <div class="image-container"><img id="img6" src="img/phone_off.svg" 
+                    onclick="this.src='img/phone.svg'" onmouseleave="this.src='img/phone_off.svg'" /></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="left-column">
+            <div class="image-container"><img id="img7" src="img/switch_off.svg" 
+                    onclick="this.src='img/switch.svg'" onmouseleave="this.src='img/switch_off.svg'" /></div>
+        </div>
+        <div class="right-column">
+            <div class="image-container"><img id="img8" src="img/tv_off.svg" 
+                    onclick="this.src='img/tv.svg'" onmouseleave="this.src='img/tv_off.svg'" /></div>
+        </div>
+        <div class="center-column">
+            <div class="image-container"><img id="img9" src="img/vr_off.svg" 
+                    onclick="this.src='img/vr.svg'" onmouseleave="this.src='img/vr_off.svg'" /></div>
+        </div>
+    </div>
+
+    <script>
+        var sound1 = new buzz.sound("sound/arcade.wav");
+        var sound2 = new buzz.sound("sound/cine.wav");
+        var sound3 = new buzz.sound("sound/ps5.wav");
+        var sound4 = new buzz.sound("sound/steam.wav");
+        var sound5 = new buzz.sound("sound/pc.wav");
+        var sound6 = new buzz.sound("sound/phone.wav");
+        var sound7 = new buzz.sound("sound/ns.wav");
+        var sound8 = new buzz.sound("sound/tv.wav");
+        var sound9 = new buzz.sound("sound/vr.wav");
+        var sound10 = new buzz.sound("sound/plop.wav")
+        var allIcons = [1, 2, 3, 4, 5, 6, 7, 8 ,9];
+        allIcons.forEach (function (n) {
+            document.getElementById ('img' + n).addEventListener ('mouseenter', function () {
+                sound10.stop();
+                sound10.play();
+            });
+        });
+    
+        
+
+
+        window.onload = function () {
+            document.getElementById('img1').addEventListener('click', function () { sound1.play(); });
+            document.getElementById('img2').addEventListener('click', function () { sound2.play(); });
+            document.getElementById('img3').addEventListener('click', function () { sound3.play(); });
+            document.getElementById('img4').addEventListener('click', function () { sound4.play(); });
+            document.getElementById('img5').addEventListener('click', function () { sound5.play(); });
+            document.getElementById('img6').addEventListener('click', function () { sound6.play(); });
+            document.getElementById('img7').addEventListener('click', function () { sound7.play(); });
+            document.getElementById('img8').addEventListener('click', function () { sound8.play(); });
+            document.getElementById('img9').addEventListener('click', function () { sound9.play(); });
+        }
+    </script>
+</body>
+
+</html>
